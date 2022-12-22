@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T17:08:47.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="AfHxSU8dJ4crfJU93DWF" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T17:16:13.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="e1JHVwJmS3547A7VyAY4" version="20.7.4" type="github">
   <diagram id="hZq0ZE2ZOcuf5ZeeHaqC" name="Page-1">
     <mxGraphModel dx="2884" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="465" y="150" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="feCAGbGGqaPJVvirafDC-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;command&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ input: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ output: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ data: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ commandname: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fileName: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ lineNumber: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ commandIndex: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ inputRefVars:List&amp;lt;variables&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ initialized: bool&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ optionalInputs&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ optInput: List&amp;lt;string, string, int, string)&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ command(string, string, int, string)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getData(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getOutput(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getInput(): string&lt;br&gt;+ getCommandName(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addRefVar(variable): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateRefVar(variable): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addOptionalInput(string, string): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getOptionalInputName(int): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getOptionalInputValue(int): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getRefVar(int): variable&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ refVarExists(string): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ optionalInputCount(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getInitialized(): bool&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setInitialized(): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getFileName(): string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="1210" width="225" height="110" as="geometry" />
+          <mxGeometry x="1050" y="1210" width="225" height="110" as="geometry" />
         </mxCell>
         <mxCell id="4KPIdOx_-NJbldR3gW17-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="feCAGbGGqaPJVvirafDC-2" target="gC0St136lnrHwNtGKxxE-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -184,7 +184,7 @@
             <mxPoint x="950" y="1510" as="targetPoint" />
             <Array as="points">
               <mxPoint x="800" y="1150" />
-              <mxPoint x="800" y="1280" />
+              <mxPoint x="800" y="1265" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -289,14 +289,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KPIdOx_-NJbldR3gW17-35" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="feCAGbGGqaPJVvirafDC-1" edge="1">
+        <mxCell id="4KPIdOx_-NJbldR3gW17-35" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=none;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" target="feCAGbGGqaPJVvirafDC-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="1170" as="sourcePoint" />
             <mxPoint x="918" y="1380" as="targetPoint" />
             <Array as="points">
               <mxPoint x="40" y="1070" />
               <mxPoint x="800" y="1070" />
-              <mxPoint x="800" y="1280" />
+              <mxPoint x="800" y="1265" />
+              <mxPoint x="1050" y="1265" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -340,7 +341,7 @@
             <mxPoint x="1200" y="1270" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1520" y="240" />
-              <mxPoint x="1520" y="1270" />
+              <mxPoint x="1510" y="1272" />
             </Array>
           </mxGeometry>
         </mxCell>
